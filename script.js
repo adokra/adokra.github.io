@@ -11,7 +11,7 @@ function contact() {
             <p>Now, let’s talk shop! We're all about helping businesses like yours thrive in the digital jungle, and Facebook is our playground. Whether you're a seasoned Facebook aficionado or just dipping your toes into the social media pool, we've got the expertise, the tricks, and a sprinkle of that secret sauce to make your brand shine bright like a diamond in the Facebook universe. 💎</p>
             <p>But hey, enough about us! We wanna hear all about your business, your goals, and your wildest dreams for conquering the social media realm. So how about we set up a quick virtual coffee chat? No pressure, just a chance to get to know each other and see if we're a match made in Facebook heaven.</p>
             <p>Drop me a line whenever you're free, and we’ll make it happen! Looking forward to chatting with you soon, ${contact_name}.</p>
-            <p>Keep rockin’,<br/>Paul<br/>Chief Gardener and Proudest Cape Wearer at AdOkra</p>
+            <p>Keep rockin’,<br/>Paul<br/>Chief Gardener and Proudest Cape Wearer at AdOkra!</p>
             <p>P.S. I heard a rumor that businesses who work with us get a secret boost in their Facebook likes. 😉 But shh, it’s classified info!
         </html>
     `
@@ -31,7 +31,7 @@ function contact() {
             Subject : "🌟 Let's Ignite Your Facebook Presence with AdOkra! 🚀",
             Body : body
         }).then(
-            message => alert(message)
+            alert('Thanks for filling out the form! You should recieve an email soon.");
         );
     }
 }
