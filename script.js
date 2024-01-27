@@ -31,7 +31,7 @@ function contact() {
             Subject : "🌟 Let's Ignite Your Facebook Presence with AdOkra! 🚀",
             Body : body
         }).then(
-            alert('Thanks for filling out the form! You should recieve an email soon.');
+            alert('Thanks for filling out the form! You should recieve an email soon.')
         );
     }
 }
