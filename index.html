@@ -1,6 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <p>Hello world!</p>
-  </body>
+    <head>
+        <title>AdOkra</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <img src="main-icon.png"/>
+                <div>
+                    <a class="light-green" href="#about">About</a>
+                </div>
+                <div>
+                    <a class="light-green" href="#contact">Contact</a>
+                </div>
+            </div>
+        </header>
+        <div class="top-content">
+            <img class="top-content-img" src="top-content.png"/>
+            <img class="top-content-text" src="text-icon.png"/>
+        </div>
+        <div id="about" class="about">
+            <div class="about-paragraphs">
+                <h2 class="reveal dark-grey">About AdOkra</h2>
+                <p class="reveal dark-grey">
+                    Hey there, savvy business owners and future Facebook ad rockstars! 👋 I'm Paul, the brain behind AdOkra – your go-to Social Media Marketing Agency. Now, before you ask, yes, I'm the proud captain of this ad ship, and no, I don't wear a cape (well, not in public, at least). So, what's the deal with AdOkra, you ask? Well, picture this: a magical land where your business gets the spotlight it deserves on the grand stage of social media. That's us – your social media hype squad, without the pom-poms, but with a whole lot of strategy.
+                </p>
+                <img src="about-1.png"/>
+                <p class="reveal dark-grey">  
+                    Why AdOkra, you wonder? It's not just a name; it's a vibe. You see, okra isn't your average veggie – it's the unsung hero of the garden. Just like how we'll make your business shine bright in the vast digital landscape. Plus, okra is versatile, just like our approach to Facebook ads. We don't do one-size-fits-all; we tailor our strategies like a bespoke suit for your unique business. Now, I won't bore you with marketing jargon. Let's keep it real – we're here to make your business the talk of the town (or at least the talk of the timeline). Whether you're a coffee shop, a tech startup, or a cat yoga studio (because why not?), we've got the secret sauce to get those thumbs tapping and those clicks rolling.
+                </p>
+                <img src="about-2.png"/>
+                <p class="reveal dark-grey">
+                    Our team is a mix of creative minds, data wizards, and one person who insists they're a stand-up comedian on the side (spoiler alert: they're not that funny). But hey, we believe in the power of a good laugh and a killer ad campaign. At AdOkra, we're not just about the likes and shares – we're about real, tangible results. We'll help you turn those clicks into customers and those customers into your biggest fans. It's not just business; it's a digital love story waiting to unfold. So, if you're ready to take your Facebook game from 'meh' to 'OMG,' hop on board the AdOkra express. No capes required, just a bunch of cool people making your business the next big thing. Let's make your brand shine like okra in the social media salad – crisp, fresh, and impossible to ignore. 🚀
+                </p>
+                <img src="about-3.gif"/>
+            </div>
+        </div>
+        <div id="contact" class="contact grey-background">
+            <img src="icon.png"/>
+            <h1 class="reveal dark-green">Contact</h1>
+            <div class="email-box">
+                <p class="reveal light-green">Email</p>
+                <input class="reveal brown" type="email" id="email"/>
+            </div>
+            <div class="name-box">
+                <p class="reveal light-green">Name</p>
+                <input class="reveal brown" type="text" id="name"/>
+            </div>
+            <div class="button-box">
+                <button class="reveal light-green pointer" onclick="contact()">Submit</button>
+            </div>
+        </div>
+        <footer>
+            <div class="socials">
+                <h1 class="reveal dark-grey">Follow us</h1>
+                <div>
+                    <a href="https://www.twitter.com">
+                        <img src="twitter.png"/>
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <img src="facebook.png"/>
+                    </a>
+                    <a href="https://www.linkedin.com">
+                        <img src="linkedin.png"/>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="instagram.png"/>
+                    </a>
+                </div>
+            </div>
+            <p class="light-green">@2024 AdOkra LLC<br/>All rights reserved</p>
+        </footer>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
