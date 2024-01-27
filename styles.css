@@ -13,7 +13,7 @@ body {
     float: right;
 }
 .navbar a {
-    font-size: large;
+    font-size: 20px;
     text-decoration: none;
 }
 .navbar a:hover {
@@ -97,18 +97,18 @@ body {
 .contact input {
     border: none;
     outline: none;
-    font-size: large;
+    font-size: 20px;
     padding: 5px;
     border-radius: 5px;
 }
 .contact p {
-    font-size: large;
+    font-size: 20px;
 }
 .button-box {
     padding: 20px 0 20px 0;
 }
 .contact button {
-    font-size: large;
+    font-size: 20px;
     padding: 5px;
     border-radius: 5px;
     border: none;
@@ -150,7 +150,7 @@ body {
     cursor: pointer;
 }
 footer p {
-    font-size: large;
+    font-size: 20px;
     text-align: right;
     padding-right: 20px;
 }
